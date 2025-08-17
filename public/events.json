@@ -1,0 +1,134 @@
+ [
+ {
+    "event_image": "https://i.ibb.co.com/PzhtKk0F/event1.jpg",
+    "id": "E1001",
+    "event_name": "Summer Music Festival",
+    "short_description": "An outdoor festival featuring live bands, food trucks, and art displays.",
+    "large_description": "The Summer Music Festival brings together music lovers from across the city for an unforgettable day of live performances, delicious food, and vibrant art. With multiple stages set up across the park, you'll enjoy a mix of rock, pop, indie, and electronic artists. Local food trucks will serve a wide range of cuisines, and an art fair will feature works from emerging artists. The event is family-friendly with special activities for kids, making it the perfect way to celebrate the season.",
+    "event_type": "Music",
+    "cost": "$50",
+    "date": "2025-07-15",
+    "location": "Dhaka, Bangladesh"
+  },
+  {
+    "event_image": "https://i.ibb.co.com/LD3gKVqH/event2.png",
+    "id": "E1002",
+    "event_name": "Tech Innovation Conference",
+    "short_description": "A gathering of industry leaders to discuss the future of technology.",
+     "large_description": "The Tech Innovation Conference is a two-day event where leading experts, innovators, and entrepreneurs come together to share insights on the latest advancements in technology. Attendees can participate in keynote sessions, hands-on workshops, and networking events. Topics will cover artificial intelligence, blockchain, cybersecurity, and sustainable technology solutions. Whether you’re a tech professional, investor, or student, this conference offers valuable knowledge and opportunities to connect with key players in the industry.",
+    "event_type": "Conference",
+    "cost": "$120",
+    "date": "2025-09-05",
+    "location": "Dhaka, Bangladesh"
+  },
+  {
+    "event_image": "https://i.ibb.co.com/sJgn35NP/event3.jpg",
+    "id": "E1003",
+    "event_name": "City Food Carnival",
+    "short_description": "Taste dishes from top local chefs and food vendors in one place.",
+    "large_description": "The City Food Carnival is a paradise for food lovers, offering a wide selection of cuisines from across the globe. More than 50 food stalls will feature signature dishes, desserts, and beverages. The event will also include live cooking demonstrations from renowned chefs, a street food competition, and family activities such as food-themed games and cooking classes for kids. Music and cultural performances will add to the lively atmosphere, making it more than just a food fair but a celebration of flavors and culture.",
+    "event_type": "Food",
+    "cost": "$25",
+    "date": "2025-08-20",
+    "location": "Dhaka, Bangladesh"
+  },
+  {
+    "event_image": "https://i.ibb.co.com/XpBR2QM/event4.jpg",
+    "id": "E1004",
+    "event_name": "Charity Run for Education",
+    "short_description": "A 10K run to raise funds for underprivileged children's education.",
+     "large_description": "Join thousands of participants in the Charity Run for Education, a community-driven event designed to raise funds for scholarships and educational programs for children in need. The 10K route runs through scenic parts of the city and is open to both professional runners and casual joggers. Family-friendly activities such as a 3K fun run, food stalls, and live entertainment will also be available. All proceeds go directly toward providing learning resources, building libraries, and supporting educational initiatives in underserved areas.",
+    "event_type": "Sports",
+    "cost": "$15",
+    "date": "2025-10-02",
+    "location": "Dhaka, Bangladesh"
+  },
+  {
+    "event_image": "https://i.ibb.co.com/xSPKYJqZ/event5.jpg",
+    "id": "E1005",
+    "event_name": "Art & Craft Exhibition",
+    "short_description": "Explore beautiful artworks and handmade crafts from local artists.",
+    "large_description": "The Art & Craft Exhibition showcases creativity and craftsmanship from talented local and regional artists. Visitors will have the chance to explore paintings, sculptures, handmade jewelry, pottery, and textiles. The event also includes live art demonstrations, interactive craft workshops, and an auction for unique pieces. It’s the perfect place for art lovers to discover new talents, purchase handmade goods, and connect with creators. Whether you’re an art enthusiast or just looking for a unique cultural experience, this exhibition has something for everyone.",
+    "event_type": "Exhibition",
+    "cost": "$10",
+    "date": "2025-08-30",
+    "location": "Dhaka, Bangladesh"
+  },
+  {
+    "event_image": "https://i.ibb.co.com/Rpg2FTJT/event6.jpg",
+    "id": "E1006",
+    "event_name": "International Film Screening",
+    "short_description": "Watch award-winning films from around the world in one evening.",
+    "large_description": "The International Film Screening presents a curated selection of award-winning films from various countries, covering a mix of genres including drama, comedy, and documentary. Each screening will be followed by a panel discussion with filmmakers and critics, offering deeper insights into storytelling and cinematography. Attendees will also have access to a cultural fair featuring international cuisine and music, creating an immersive global experience. The event is perfect for cinephiles looking to discover unique voices in world cinema.",
+    "event_type": "Film",
+    "cost": "$40",
+    "date": "2025-09-18",
+    "location": "Dhaka, Bangladesh"
+  },
+ {
+    "event_image": "https://example.com/event7.jpg",
+    "id": "E1007",
+    "event_name": "Startup Pitch Night",
+    "short_description": "Upcoming entrepreneurs pitch their ideas to investors and mentors.",
+    "large_description": "Startup Pitch Night is the ultimate platform for aspiring entrepreneurs to showcase their innovative ideas to investors, mentors, and industry experts. The event includes a series of 10-minute pitches followed by Q&A sessions. Investors will provide feedback and potential funding opportunities, while attendees can network with founders and business leaders. In addition to the pitches, panel discussions on business growth, scaling startups, and fundraising strategies will provide practical insights. Perfect for anyone interested in entrepreneurship, innovation, or investment opportunities.",
+    "event_type": "Business",
+    "cost": "$30",
+    "date": "2025-09-25",
+    "location": "Dhaka, Bangladesh"
+  },
+  {
+    "event_image": "https://example.com/event8.jpg",
+    "id": "E1008",
+    "event_name": "Yoga & Wellness Retreat",
+    "short_description": "A relaxing day of yoga sessions, meditation, and healthy meals.",
+    "large_description": "The Yoga & Wellness Retreat is designed to refresh your mind, body, and spirit. Participants will enjoy guided yoga sessions led by certified instructors, meditation workshops, and wellness talks on topics such as stress management, mindfulness, and nutrition. Healthy meals and detox drinks will be provided throughout the day to enhance the experience. The retreat will take place in a serene outdoor setting, creating a peaceful atmosphere for relaxation. This event is ideal for anyone seeking balance, self-care, and holistic well-being.",
+    "event_type": "Health",
+    "cost": "$80",
+    "date": "2025-08-22",
+    "location": "Dhaka, Bangladesh"
+  },
+  {
+    "event_image": "https://example.com/event9.jpg",
+    "id": "E1009",
+    "event_name": "Comic-Con Cosplay Contest",
+    "short_description": "A fun-filled cosplay competition for comic and anime fans.",
+    "large_description": "The Comic-Con Cosplay Contest is the highlight of the annual comic convention, bringing together fans of comics, anime, video games, and movies. Participants will showcase their creativity and craftsmanship by dressing up as their favorite characters. Judges will award prizes in categories such as Best Costume, Best Group Performance, and Audience Choice. Alongside the contest, attendees can enjoy meet-and-greet sessions with voice actors, panel discussions with comic creators, and merchandise stalls. It’s a must-attend event for fans of pop culture and cosplay enthusiasts alike.",
+    "event_type": "Entertainment",
+    "cost": "$20",
+    "date": "2025-09-12",
+    "location": "Dhaka, Bangladesh"
+  },
+  {
+    "event_image": "https://example.com/event10.jpg",
+    "id": "E1010",
+    "event_name": "Photography Masterclass",
+    "short_description": "Learn photography tips from professional photographers.",
+    "large_description": "The Photography Masterclass is a hands-on workshop designed for photography enthusiasts of all levels. Professional photographers will guide participants through lessons on lighting, composition, editing, and storytelling through images. Attendees will have the chance to practice techniques in real-time during outdoor photo walks. The event also includes portfolio review sessions where experts will provide constructive feedback. Whether you’re a beginner with a smartphone camera or an advanced DSLR user, this workshop will help enhance your skills and creativity.",
+    "event_type": "Workshop",
+    "cost": "$60",
+    "date": "2025-10-15",
+    "location": "Dhaka, Bangladesh"
+  },
+  {
+    "event_image": "https://example.com/event11.jpg",
+    "id": "E1011",
+    "event_name": "Science & Astronomy Fair",
+    "short_description": "Explore the wonders of science with hands-on exhibits.",
+    "large_description": "The Science & Astronomy Fair is an educational event for families, students, and science enthusiasts. Visitors can interact with hands-on exhibits, attend live science experiments, and view the night sky through telescopes. Guest speakers, including scientists and astronauts, will give talks on topics such as space exploration, renewable energy, and robotics. Interactive zones for children will make learning fun and engaging. The fair provides a perfect blend of education and entertainment, inspiring curiosity and passion for science in all ages.",
+    "event_type": "Education",
+    "cost": "$12",
+    "date": "2025-08-28",
+    "location": "Dhaka, Bangladesh"
+  },
+  {
+    "event_image": "https://example.com/event12.jpg",
+    "id": "E1012",
+    "event_name": "Wine Tasting Gala",
+    "short_description": "Enjoy an evening of fine wines and gourmet appetizers.",
+    "large_description": "The Wine Tasting Gala is a sophisticated evening dedicated to wine lovers. Attendees will have the opportunity to taste a variety of premium wines from renowned vineyards, paired with gourmet appetizers crafted by expert chefs. Wine experts will host guided tasting sessions, explaining the origins, flavors, and pairing techniques. The event also includes live jazz performances, creating an elegant and enjoyable atmosphere. Whether you are a wine connoisseur or simply want to explore new flavors, this gala promises a delightful and educational experience.",
+    "event_type": "Food & Drink",
+    "cost": "$55",
+    "date": "2025-09-30",
+    "location": "Dhaka, Bangladesh"
+  }
+]
