@@ -1,7 +1,15 @@
+import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../providers/AuthProvider";
 
 const Header = () => {
- 
+    const {user,logOut} = useContext(AuthContext)
+     
+       const handleSignOut = () => {
+           logOut()
+            .then()
+             .catch()
+       }  
     const navLinks = <>
         <li><NavLink to ='/'>Home</NavLink></li>
         <li><NavLink to ='/explore'>Explore Event</NavLink></li>
@@ -9,6 +17,10 @@ const Header = () => {
         <li><NavLink to ='/blog'>Blog</NavLink></li>
         <li><NavLink to ='/pages'>Pages</NavLink></li>
     </>
+
+                   
+ 
+
     return (
         <div>
             <div className="navbar bg-base-100 ">
@@ -23,7 +35,12 @@ const Header = () => {
         {navLinks}
       </ul>
     </div>
-     <a className="btn btn-ghost text-xl">EventEase</a>
+     <div className="flex items-center">
+     <Link to="/">
+      <img className="w-30 h-25 bg-none" src="https://i.ibb.co.com/R4Ncc1DT/Event-Ease-logo-01-1.jpg" alt="" />
+     </Link>
+     
+     </div>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -39,9 +56,57 @@ const Header = () => {
             
         </div>
       </div>
-    <Link to="/login">
-    <button className="btn">Login</button>
-    </Link>
+    {
+        user ?
+        <button onClick={ handleSignOut } className="btn bg-[#8592eb] bg-opacity-50 text-white w-24">Sign Out</button>
+        :
+        <Link to="/login">
+        <button className="btn bg-[#8592eb] bg-opacity-50 text-white w-24">Login</button>
+        </Link>
+
+      }
+
+
+           
+  <label className="swap swap-rotate">
+  {/* hidden checkbox controls the state */}
+  <input
+    type="checkbox"
+    defaultChecked={localStorage.getItem("theme") === "dark"}
+    onChange={(e) => {
+      const theme = e.target.checked ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", theme);
+      localStorage.setItem("theme", theme);
+    }}
+  />
+
+  {/* Sun icon (light mode) */}
+  <svg
+    className="swap-on w-10 h-10 fill-current"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+  >
+    <path d="M5.64 17l-.71.71a1..." />
+  </svg>
+
+  {/* Moon icon (dark mode) */}
+  <svg
+    className="swap-off w-10 h-10 fill-current"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+  >
+    <path d="M21 12.79A9 9 0 0111.21 3..." />
+  </svg>
+</label>
+
+
+
+
+
+
+
+
+
     
   </div>
 </div>
