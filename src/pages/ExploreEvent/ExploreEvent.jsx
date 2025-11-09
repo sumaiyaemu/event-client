@@ -29,7 +29,7 @@ const ExploreEvent = () => {
 
                 </div>
             </div>
-            <div className="grid grid-cols-2 lg:grid-cols-3 md:gap-5 lg:gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-3 md:gap-5 lg:gap-8">
                 {
                     events.slice(0, dataLength).map(event => <Event key={event.id} event={event}></Event> )
                 }

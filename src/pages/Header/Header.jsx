@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link,  NavLink } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 
 const Header = () => {
@@ -15,15 +15,23 @@ const Header = () => {
         <li><NavLink to ='/explore'>Explore Event</NavLink></li>
         <li><NavLink to ='/pricing'>Pricing</NavLink></li>
         <li><NavLink to ='/blog'>Blog</NavLink></li>
-        <li><NavLink to ='/pages'>Pages</NavLink></li>
+        <li className="dropdown" > 
+       
+ <NavLink  to ='/pages' >Pages</NavLink>
+  <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+    <li><Link to='/create'>Create Event</Link></li>
+    <li><Link to='/explore'>Event View</Link></li>
+  </ul>
+
+          </li>
     </>
 
                    
  
 
     return (
-        <div>
-            <div className="navbar bg-base-100 ">
+        <div >
+            <div className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

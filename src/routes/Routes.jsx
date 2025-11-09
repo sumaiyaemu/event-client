@@ -12,56 +12,66 @@ import OnlineEvent from "../pages/OnlineEvent/OnlineEvent";
 import VenueEvent from "../pages/VenueEvent/VenueEvent";
 import OnlineTicket from "../pages/OnlineTicket/OnlineTicket";
 import VenueTicket from "../pages/VenueTicket/VenueTicket";
+import SubPages from "../pages/SubPages/SubPages";
+import Pricing from "../pages/Pricing/Pricing";
 
 
 const routes = createBrowserRouter([
     {
-        path: '/',
-        element: <Root></Root>,
-        errorElement: <ErrorPage></ErrorPage>,
-        children: [
-            {
-                path: '/',
-                element: <Home></Home>,
-            },
-            {
-                path: '/explore',
-                element: <ExploreEvent></ExploreEvent>,
-            },
-            {
-                path: '/event/:id',
-                element: <PrivateRoute><EventDetails></EventDetails></PrivateRoute>,
-                loader: () => fetch('/events.json')
-            },
-            {
-                path: '/create',
-                element: <PrivateRoute><CreateEvent></CreateEvent></PrivateRoute>,
-            },
-            {
-                path: '/login',
-                element: <Login></Login>,
-            },
-            {
-                path: '/register',
-                element: <Register></Register>,
-            },
-            {
-                path: '/online',
-                element: <OnlineEvent></OnlineEvent>,
-            },
-            {
-                path: '/venue',
-                element: <VenueEvent></VenueEvent>,
-            },
-            {
-                path: '/onlineticket',
-                element: <OnlineTicket></OnlineTicket>,
-            },
-            {
-                path: '/venueticket',
-                element: <VenueTicket></VenueTicket>
-            }
-        ]
+    path: '/',
+    element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
+    children: [
+        {
+            path: '/',
+            element: <Home></Home>,
+        },
+        {
+            path: '/explore',
+            element: <ExploreEvent></ExploreEvent>,
+        },
+        {
+            path: '/pages' ,
+            element: <SubPages></SubPages>,      
+        },
+        {
+           path:'/pricing' ,
+           element:<Pricing></Pricing>,
+        },
+        {
+            path: '/event/:id',
+            element: <PrivateRoute><EventDetails></EventDetails></PrivateRoute>,
+            loader: () => fetch('/events.json')
+        },
+        {
+            path: '/create',
+            element: <PrivateRoute><CreateEvent></CreateEvent></PrivateRoute>,
+        },
+        {
+            path: '/login',
+            element: <Login></Login>,
+        },
+        {
+            path: '/register',
+            element: <Register></Register>,
+        },
+        {
+            path: '/online',
+            element: <OnlineEvent></OnlineEvent>,
+        },
+        {
+            path: '/venue',
+            element: <VenueEvent></VenueEvent>,
+        },
+        {
+            path: '/onlineticket',
+            element: <OnlineTicket></OnlineTicket>,
+        },
+        {
+            path: '/venueticket',
+            element: <VenueTicket></VenueTicket>
+        }
+    ]
     }
 ]);
 export default routes;
