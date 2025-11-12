@@ -14,6 +14,8 @@ import OnlineTicket from "../pages/OnlineTicket/OnlineTicket";
 import VenueTicket from "../pages/VenueTicket/VenueTicket";
 import SubPages from "../pages/SubPages/SubPages";
 import Pricing from "../pages/Pricing/Pricing";
+import AdminDashboard from "../pages/AdminDashboard/AdminDashboard";
+
 
 
 const routes = createBrowserRouter([
@@ -69,8 +71,14 @@ const routes = createBrowserRouter([
         },
         {
             path: '/venueticket',
-            element: <VenueTicket></VenueTicket>
-        }
+            element: <VenueTicket></VenueTicket>,
+        },
+        {
+            path: '/admin',
+            element: <PrivateRoute><AdminDashboard></AdminDashboard></PrivateRoute>,
+            loader: () => fetch('http://localhost:5000/event')
+
+        },
     ]
     }
 ]);

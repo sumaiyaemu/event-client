@@ -7,7 +7,7 @@ const CatagoriesList = () => {
              <h6 className="text-3xl font-bold">Host Engaging Online and Venue Events with EventEase</h6>
             <p className="mt-4">Organise venue events and host online events with unlimited possibilities using our built-in virtual event platform.Build a unique event experience for you and your attendees.</p>
            </div>
-      <div className="flex justify-between gap-8 mt-24 mb-20">
+      <div className="flex justify-between gap-8 mt-24 mb-20  grid grid-cols-1 lg:grid-cols-3 md:gap-5 lg:gap-8">
                <div className="card bg-base-100  shadow-sm">
   <figure>
     <img className="w-30 h-30 mb-4 "

@@ -47,7 +47,7 @@ const VenueTicket = () => {
   <p className="mb-4 text-gray-500">Enabling this discount lets your attendees get all the regular tickets features at a discounted price.<a className="link link-success">Learn more</a></p>
             </div>
             <div className=" flex justify-center gap-2 text-center mt-14">
-                 <Link to="/online">
+                 <Link to="/venue">
          <button className="btn bg-[#8592eb] bg-opacity-50 text-white w-40 mb-14 ">Previous</button>
          </Link>
          <Link >

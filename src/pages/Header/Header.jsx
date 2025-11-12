@@ -21,6 +21,7 @@ const Header = () => {
   <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
     <li><Link to='/create'>Create Event</Link></li>
     <li><Link to='/explore'>Event View</Link></li>
+    <li><Link to='/admin'>Admin Dashboard</Link></li>
   </ul>
 
           </li>
@@ -56,14 +57,7 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-        <div className="w-10 rounded-full">
-          <img
-            alt="Tailwind CSS Navbar component"
-            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-            
-        </div>
-      </div>
+    
     {
         user ?
         <button onClick={ handleSignOut } className="btn bg-[#8592eb] bg-opacity-50 text-white w-24">Sign Out</button>
