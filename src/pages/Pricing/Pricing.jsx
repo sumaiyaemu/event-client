@@ -4,7 +4,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 const Pricing = () => {
     return (
         <div> 
-            <div className="mt-16 w-full h-60 bg-linear-to-bl from-violet-200 to-violet-100 p-5 pl-5 pr-7">
+            <div className="mt-28 w-full h-60 bg-linear-to-bl from-violet-200 to-violet-100 p-5 pl-5 pr-7">
                   <h1 className="font-bold text-3xl">EventEase Pricing</h1>
                   <p className="mt-4 mb-6 text-xl">We believe your event experience should be simple, elegant and hassle-free. Our aim is to create that experience so that you can focus on hosting your event while we take care of the rest!</p>
                   <Link to="/create">

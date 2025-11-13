@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const OnlineTicket = () => {
     return (
     <div>
-        <div className="bg-violet-100 p-3">
+        <div className="bg-violet-100 p-3 mt-24">
           <div className="breadcrumbs text-sm">
   <ul>
     <li className="font-medium"><Link to="/">Home</Link></li>

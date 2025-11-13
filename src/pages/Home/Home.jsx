@@ -6,7 +6,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Home = () => {
     return (
-        <div className="mt-5">
+        <div >
           <div className="relative">
               
            <div className="carousel w-full h-[420px]">

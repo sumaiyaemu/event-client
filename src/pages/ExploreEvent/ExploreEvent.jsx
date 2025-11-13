@@ -15,7 +15,7 @@ const ExploreEvent = () => {
     return (
         <div>
             <div>
-                <h2 className="text-3xl mt-24 mb-12 font-bold">Explore Events</h2>
+                <h2 className="text-3xl mt-10 mb-12 font-bold">Explore Events</h2>
                 <div className="flex justify-between mt-5 mb-5 btn-link ">
                     <Link><button className="btn ">All</button></Link>
                     <Link><button className="btn ">Music</button></Link>
@@ -36,7 +36,7 @@ const ExploreEvent = () => {
             </div>
             <div className="flex justify-center items-center text-center mt-7">
            <div className= {dataLength === events.length && 'hidden'}>
-                <button onClick={ () => setDatalength(events.length) } className="btn bg-[#8592eb] bg-opacity-50 text-white   ">Show all events</button>
+                <button onClick={ () => setDatalength(events.length) } className="btn bg-[#8592eb] bg-opacity-50 text-white mb-14  ">Show all events</button>
             </div>
            </div>
             
