@@ -1,4 +1,4 @@
-// src/pages/NotAuthorized/NotAuthorized.jsx
+
 export default function NotAuthorized() {
   return (
     <div className="flex flex-col items-center justify-center h-screen">

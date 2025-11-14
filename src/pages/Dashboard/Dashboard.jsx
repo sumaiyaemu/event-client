@@ -3,7 +3,7 @@ import Swal from "sweetalert2";
 
 const Dashboard = ({event}) => {
 
-    const {_id,name, catagory, date, time, duration, image} = event;
+    const {_id,name, catagory, date, time, duration, image,venue,address1} = event;
         
         const handleDelete = _id => {
           console.log(_id);
@@ -49,6 +49,8 @@ const Dashboard = ({event}) => {
         <th>Event Date</th>
         <th>Time</th>
         <th>Duration</th>
+        <th>Venue</th>
+        <th>Address</th>
        
       </tr>
     </thead>
@@ -77,6 +79,8 @@ const Dashboard = ({event}) => {
         <td>{date}</td>
         <td>{time}</td>
         <td>{duration}</td>
+        <td>{venue}</td>
+        <td>{address1}</td>
         <th>
           <button
            onClick={() => handleDelete(_id)}

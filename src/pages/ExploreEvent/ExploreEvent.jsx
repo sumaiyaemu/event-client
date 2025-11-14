@@ -3,7 +3,6 @@ import Event from "../Event/Event";
 import { Link } from "react-router-dom";
 
 
-
 const ExploreEvent = () => {
     const [events ,setEvents] = useState([]);
     const [dataLength , setDatalength] = useState(6);
