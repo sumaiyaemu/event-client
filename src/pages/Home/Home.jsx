@@ -9,7 +9,7 @@ const Home = () => {
         <div >
           <div className="relative">
               
-           <div className="carousel w-full h-[420px]">
+           <div className="carousel w-full rounded-xl h-[420px]">
             
   <div id="slide1" className="carousel-item relative w-full">
     

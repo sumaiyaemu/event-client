@@ -1,11 +1,11 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
-
+import { MdCheckBoxOutlineBlank ,MdCheckBox } from "react-icons/md";
 
 const Register = () => {
             const { createUser, setUser } = useContext(AuthContext);
-
+            const [showPassword , setShowPassword] = useState(false);
                const handleRegister = e =>{
         e. preventDefault();
         console.log(e. currentTarget);
@@ -39,9 +39,20 @@ const Register = () => {
           <label className="label ">Email</label>
           <input type="email" name="email" className="input" placeholder="Email" />
           <label className="label">Password</label>
-          <input type="password" name="password" className="input" placeholder="Password" />
+          <input type={showPassword ? "text" : "password"}
+           name="password" 
+           placeholder="password" 
+           className="input input-bordered" required />
+            <div className="flex items-center gap-1 ">
+          <span onClick={ () => setShowPassword(!showPassword)}>
+            {
+              showPassword ? <MdCheckBox></MdCheckBox> : <MdCheckBoxOutlineBlank></MdCheckBoxOutlineBlank>
+            }
+            </span>
+            <p>show password</p>
+          </div>
           <div><a className="link link-hover">Forgot password?</a></div>
-          <button className="btn btn-neutral mt-4">Register</button>
+          <button className="btn bg-violet-500/60 text-white mt-4">Register</button>
         </fieldset>
                    </form>
 
