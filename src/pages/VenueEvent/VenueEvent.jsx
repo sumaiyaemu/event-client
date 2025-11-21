@@ -20,7 +20,7 @@ const VenueEvent = () => {
       console.log(venueEvent);
 
       //send data to the server
-      fetch('http://localhost:5000/venue',{
+      fetch('https://event-server-omega.vercel.app/venue',{
          method: 'POST',
          headers: {
             'content-type': 'application/json'

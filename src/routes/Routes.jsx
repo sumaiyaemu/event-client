@@ -78,7 +78,7 @@ const routes = createBrowserRouter([
         {
             path: '/admin',
             element: <AdminRoute><AdminDashboard></AdminDashboard></AdminRoute>,
-            loader: () => fetch('http://localhost:5000/event')
+            loader: () => fetch('https://event-server-omega.vercel.app/event')
 
         },
          {

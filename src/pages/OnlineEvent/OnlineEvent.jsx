@@ -18,7 +18,7 @@ const OnlineEvent = () => {
       console.log(newEvent);
 
       //send data to the server
-      fetch('http://localhost:5000/event',{
+      fetch('https://event-server-omega.vercel.app/event',{
          method: 'POST',
          headers: {
             'content-type': 'application/json'

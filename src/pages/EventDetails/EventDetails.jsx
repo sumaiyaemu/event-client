@@ -45,18 +45,7 @@ const EventDetails = () => {
   </div>   
 </div>
             </div>
-           <div>
-            <h3 className="text-xl font-bold mt-34">Event Details </h3>
-            <div className="divider"></div>
-            <div className="card bg-base-100">
-  <div className="card-body">
-    <h2 className="card-title">Card Title</h2>
-          
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-   
-  </div>
-</div>
-            </div>           
+                    
         </div>
     );
 };

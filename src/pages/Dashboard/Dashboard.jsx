@@ -18,7 +18,7 @@ const Dashboard = ({event}) => {
 }).then((result) => {
   if (result.isConfirmed) {
    
-     fetch(`http://localhost:5000/event/${_id}`,{
+     fetch(`https://event-server-omega.vercel.app/event/${_id}`,{
         method: 'DELETE'
      })
      .then(res => res.json())

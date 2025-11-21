@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import ExploreEvent from "../ExploreEvent/ExploreEvent";
 import CatagoriesList from "../CatagoriesList/CatagoriesList";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import Organizer from "../Organizer/Organizer";
 
 
 const Home = () => {
@@ -57,6 +58,7 @@ const Home = () => {
             </div> 
             <ExploreEvent></ExploreEvent>
              <CatagoriesList></CatagoriesList>
+             <Organizer></Organizer>
         </div>
     );
 };
